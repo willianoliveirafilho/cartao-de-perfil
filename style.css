@@ -1,0 +1,45 @@
+body {
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: arial, sans-serif;
+    margin: 0;
+}
+
+.card {
+    background-color: black;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.card h2 {
+    color: white;
+}
+
+.card p {
+    color: white;
+}
+
+button {
+    background-color: rgb(13, 201, 201);
+    color: rgb(8, 2, 2);
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(16, 185, 228);
+}
